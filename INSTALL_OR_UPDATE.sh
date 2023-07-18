@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ./REQUIRED_BY_INSTALLER_UPDATER/7z.exe e -spf -aoa REQUIRED_BY_INSTALLER_UPDATER/MinGit.7z
 
