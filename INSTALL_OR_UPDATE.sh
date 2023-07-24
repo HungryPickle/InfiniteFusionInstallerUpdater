@@ -11,3 +11,4 @@ echo ""
 echo "Installer/Updater made by Hungry Pickle"
 echo ""
 echo "Thank you for installing or updating!"
+read
