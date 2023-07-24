@@ -7,3 +7,5 @@ Compress-Archive -Path ".\out\InfiniteFusion" -DestinationPath ".\out\InfiniteFu
 explorer .\out
 
 Write-Host "Built:"(Get-Date -DisplayHint Time) 
+
+# MinGit-2.40.1-64-bit
