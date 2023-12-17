@@ -1,9 +1,9 @@
 Remove-Item -Path ".\out" -Recurse
-New-Item -ItemType Directory -Name ".\out\InfiniteFusion" -Path ".\" -ErrorAction SilentlyContinue
-Copy-Item -Path ".\INSTALL_OR_UPDATE.sh" -Destination ".\out\InfiniteFusion" -Force
+New-Item -ItemType Directory -Name ".\out" -Path ".\" -ErrorAction SilentlyContinue
+Copy-Item -Path ".\INSTALL_OR_UPDATE.sh" -Destination ".\out" -Force
 #Copy-Item -Path ".\ReadMe_InstallerUpdater.txt" -Destination ".\out\InfiniteFusion" -Force
 
-Compress-Archive -Path ".\out\InfiniteFusion" -DestinationPath ".\out\InfiniteFusion_linux.zip" -Force
-explorer .\out
+Compress-Archive -Path ".\out\*" -DestinationPath ".\out\KIF_Linux_Installer_by_HungryPickle.zip" -Force
+#explorer .\out
 
 Write-Host "Built:"(Get-Date -DisplayHint Time) 
