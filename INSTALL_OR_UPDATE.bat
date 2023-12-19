@@ -8,8 +8,6 @@ set mgit=".\REQUIRED_BY_INSTALLER_UPDATER\cmd\git.exe"
 %mgit% fetch origin releases
 %mgit% reset --hard origin/releases
 
-.\REQUIRED_BY_INSTALLER_UPDATER\7z.exe e -spf -aoa -o"Data" "Data\species.zip"
-
 echo:
 echo Installer/Updater made by Hungry Pickle
 echo:
