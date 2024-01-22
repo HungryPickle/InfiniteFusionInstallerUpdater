@@ -5,7 +5,7 @@
 set mgit=".\REQUIRED_BY_INSTALLER_UPDATER\cmd\git.exe"
 %mgit% init .
 %mgit% remote add origin "https://github.com/infinitefusion/infinitefusion-e18.git"
-%mgit% fetch origin releases
+%mgit% fetch origin releases --depth=1
 %mgit% reset --hard origin/releases
 
 echo:

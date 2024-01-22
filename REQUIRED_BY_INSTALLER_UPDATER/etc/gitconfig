@@ -21,3 +21,6 @@
 	helper = manager
 [safe]
     directory = *
+[http]
+	postBuffer = 52428800
+	version = HTTP/1.1
